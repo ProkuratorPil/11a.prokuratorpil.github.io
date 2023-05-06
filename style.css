@@ -1,0 +1,50 @@
+/* Стили для заголовка */
+.header {
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Стили для содержимого */
+.content {
+	padding: 20px;
+}
+/* Стили для нового блока */
+.video-container {
+  	display: flex;
+  	flex-direction: row-reverse;
+  	align-items: center;
+  	margin-top: 30px;
+  	position: relative;
+}
+
+.video-wrapper {
+  	width: 80%;
+  	padding-bottom: 45%;
+  	position: relative;
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.text-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0px;
+}
+
+.text-container h2, .text-container p {
+	text-align: center;
+}
